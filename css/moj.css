@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+button {
+	width: 120px;
+	height: 30px;
+	background-color: dodgerblue;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.clickme {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
